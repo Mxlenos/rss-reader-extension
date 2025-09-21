@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gemini RSS Reader - Chrome Eklentisi</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            line-height: 1.6;
+            max-width: 900px;
+            margin: 0 auto;
+            padding: 20px;
+            color: #333;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            min-height: 100vh;
+        }
+        
+        .container {
+            background: white;
+            border-radius: 15px;
+            padding: 40px;
+            box-shadow: 0 10px 30px rgba(0,0,0,0.2);
+        }
+        
+        .header {
+            text-align: center;
+            margin-bottom: 40px;
+        }
+        
+        .header h1 {
+            color: #333;
+            font-size: 2.5em;
+            margin-bottom: 10px;
+        }
+        
+        .header p {
+            color: #666;
+            font-size: 1.2em;
+        }
+        
+        .features {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 20px;
+            margin: 40px 0;
+        }
+        
+        .feature {
+            background: #f8f9fa;
+            padding: 20px;
+            border-radius: 10px;
+            text-align: center;
+        }
+        
+        .feature h3 {
+            color: #007bff;
+            margin-bottom: 10px;
+        }
+        
+        .links {
+            text-align: center;
+            margin-top: 40px;
+        }
+        
+        .links a {
+            display: inline-block;
+            margin: 10px 15px;
+            padding: 12px 25px;
+            background: #007bff;
+            color: white;
+            text-decoration: none;
+            border-radius: 8px;
+            transition: background 0.3s;
+        }
+        
+        .links a:hover {
+            background: #0056b3;
+        }
+        
+        .links a.secondary {
+            background: #6c757d;
+        }
+        
+        .links a.secondary:hover {
+            background: #545b62;
+        }
+        
+        .privacy-notice {
+            background: #e3f2fd;
+            border: 1px solid #2196F3;
+            border-radius: 8px;
+            padding: 20px;
+            margin: 30px 0;
+            text-align: center;
+        }
+        
+        .privacy-notice h3 {
+            color: #1976D2;
+            margin-top: 0;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>🔖 Gemini RSS Reader</h1>
+            <p>RSS akışlarınızı düzenli takip edin, haberlerinizi organize şekilde görüntüleyin</p>
+        </div>
+        
+        <div class="features">
+            <div class="feature">
+                <h3>📰 Otomatik Güncelleme</h3>
+                <p>RSS beslemeleriniz 30 dakikada bir otomatik olarak güncellenir</p>
+            </div>
+            
+            <div class="feature">
+                <h3>📅 Tarih Bazında Organizasyon</h3>
+                <p>Haberleriniz tarih bazında gruplandırılır ve düzenli görüntülenir</p>
+            </div>
+            
+            <div class="feature">
+                <h3>🔒 Gizlilik Odaklı</h3>
+                <p>Verileriniz sadece cihazınızda saklanır, hiçbir veri toplanmaz</p>
+            </div>
+            
+            <div class="feature">
+                <h3>🚫 Reklamsız</h3>
+                <p>Tamamen ücretsiz ve reklamsız kullanım deneyimi</p>
+            </div>
+        </div>
+        
+        <div class="privacy-notice">
+            <h3>🛡️ Gizliliğiniz Bizim Önceliğimiz</h3>
+            <p>Bu eklenti tamamen yerel çalışır ve hiçbir kişisel verinizi toplamaz. 
+            Tüm RSS verileri sadece cihazınızda saklanır ve işlenir.</p>
+        </div>
+        
+        <div class="links">
+            <a href="https://chrome.google.com/webstore/category/extensions" target="_blank">
+                📦 Chrome Web Store'dan İndir
+            </a>
+            <a href="privacy-policy" class="secondary">
+                📋 Gizlilik Politikası
+            </a>
+            <a href="https://github.com/[kullanici-adi]/[repo-adi]" target="_blank" class="secondary">
+                💻 GitHub'da Görüntüle
+            </a>
+        </div>
+    </div>
+</body>
+</html>
