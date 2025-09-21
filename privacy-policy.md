@@ -1,106 +1,47 @@
-# Gizlilik Politikası - Gemini RSS Reader
+# Gizlilik Politikası
 
-**Son Güncelleme Tarihi:** 21 Eylül 2025
+**Son Güncelleme:** 21 Eylül 2025
 
-Gemini RSS Reader Chrome eklentisi olarak, kullanıcılarımızın gizliliğine büyük önem veriyoruz. Bu gizlilik politikası, eklentimizin kullanıcı verilerini nasıl topladığını, kullandığını ve koruduğunu açıklar.
+> **Önemli:** Gemini RSS Reader eklentisi hiçbir kişisel verinizi toplamaz, saklamaz veya paylaşmaz. Tüm veriler sadece cihazınızda kalır.
 
-## Toplanan Bilgiler
+## Toplanan Veriler
 
-### Yerel Depolanan Veriler
-Gemini RSS Reader aşağıdaki bilgileri **sadece cihazınızda yerel olarak** depolar:
+Bu eklenti **hiçbir kişisel veri toplamaz**. Sadece şunlar yerel olarak saklanır:
 
-- **RSS Feed URL'leri:** Eklediğiniz RSS beslemelerinin web adresleri
-- **RSS İçerikleri:** Besleme kaynaklarından çekilen haber başlıkları, açıklamaları ve bağlantıları
-- **Uygulama Ayarları:** Eklenti tercihleriniz ve yapılandırmaları
+- Eklediğiniz RSS feed URL'leri
+- RSS içerikleri 
+- Eklenti ayarlarınız
 
-### Toplamadığımız Bilgiler
-Gemini RSS Reader şunları **asla toplamaz**:
+## Veri Saklama
 
-- Kişisel kimlik bilgileriniz
-- Tarayıcı geçmişiniz
-- Diğer web sitelerindeki aktiviteleriniz
-- Giriş bilgileriniz veya şifreleriniz
-- Analitik veya izleme verileri
+- Tüm veriler sadece **cihazınızda** saklanır
+- Hiçbir veri internet üzerinden gönderilmez
+- Eklentiyi sildiğinizde tüm veriler silinir
 
-## Veri İşleme
+## İzinler
 
-### Yerel İşleme
-- Tüm veriler sadece cihazınızda işlenir
-- Hiçbir veri uzak sunuculara gönderilmez
-- RSS içerikleri sadece belirttiğiniz kaynaklardan çekilir
+Eklenti şu izinleri kullanır:
 
-### Ağ Erişimi
-Eklenti yalnızca şu durumlarda internet bağlantısı kullanır:
-- Eklediğiniz RSS beslemelerinden içerik çekmek için
-- RSS XML dosyalarını indirmek için
+- **Storage:** RSS feed'lerinizi cihazınızda saklamak için
+- **Alarms:** Otomatik güncelleme için
+- **HTTPS:** RSS feed'leri güvenli şekilde çekmek için
 
-## Veri Paylaşımı
+## Üçüncü Taraflar
 
-**Gemini RSS Reader hiçbir kullanıcı verisini üçüncü taraflarla paylaşmaz.** 
+Bu eklenti:
 
-- Veri satışı yapmayız
-- Reklam ağlarıyla veri paylaşmayız  
-- Analitik servislere veri göndermeyiz
-- Kullanıcı verilerini hiçbir şekilde monetize etmeyiz
-
-## Veri Güvenliği
-
-### Güvenlik Önlemleri
-- Tüm harici RSS bağlantıları HTTPS üzerinden yapılır
-- Content Security Policy (CSP) ile XSS saldırılarına karşı koruma
-- HTML içerik sanitizasyonu ile zararlı kod enjeksiyonunu önleme
-- Yerel Chrome storage API'sini güvenli kullanım
-
-### Veri Saklama
-- Veriler sadece Chrome'un yerel depolama alanında saklanır
-- Eklentiyi kaldırdığınızda tüm veriler otomatik silinir
-- İstediğiniz zaman RSS beslemelerini ve verilerini silebilirsiniz
-
-## Kullanıcı Hakları
-
-### Veri Kontrolü
-- RSS beslemelerinizi istediğiniz zaman ekleyebilir/çıkarabilirsiniz
-- Eklenti verilerini tamamen silmek için eklentiyi kaldırabilirsiniz
-- Hiçbir veri kalıcı olarak saklanmaz
-
-### Şeffaflık
-- Eklenti açık kaynak kodludur
-- Tüm veri işleme süreçleri kod içinde görülebilir
-- Gizli veri toplama veya işleme yoktur
-
-## İzinler Açıklaması
-
-Eklentimizin talep ettiği Chrome izinleri:
-
-- **`storage`:** RSS beslemelerinizi ve içeriklerini yerel olarak saklamak için
-- **`alarms`:** Düzenli RSS güncellemeleri için zamanlayıcı oluşturmak için  
-- **`host_permissions (https://*//*)`:** RSS beslemelerini HTTPS üzerinden çekmek için
-
-## Çocukların Gizliliği
-
-Bu eklenti 13 yaş altı çocuklardan özellikle veri toplamaz. Ebeveynler, çocuklarının internet kullanımını denetlemelidir.
-
-## Politika Değişiklikleri
-
-Bu gizlilik politikasını zaman zaman güncelleyebiliriz. Önemli değişiklikler olduğunda:
-- Bu sayfa güncellenecektir
-- "Son Güncelleme Tarihi" değiştirilecektir
-- Önemli değişiklikler için kullanıcılar bilgilendirilecektir
+- Hiçbir veriyi üçüncü taraflarla paylaşmaz
+- Reklam ağı kullanmaz
+- Analitik servis kullanmaz
+- Çerez kullanmaz
 
 ## İletişim
 
-Gizlilik politikamız veya veri uygulamalarımız hakkında sorularınız varsa:
+Gizlilik konularında sorularınız için:
 
-- **GitHub:** [Proje repository'si issues bölümü]
-- **E-posta:** [İletişim e-postası]
-
-## Yasal Uyumluluk
-
-Bu gizlilik politikası şu düzenlemelere uygun olarak hazırlanmıştır:
-- GDPR (Genel Veri Koruma Yönetmeliği)
-- CCPA (California Tüketici Gizlilik Yasası)  
-- Chrome Web Store Geliştirici Politikaları
+- **Email:** businessuptr@gmail.com
+- **Website:** [businessup.com.tr](https://businessup.com.tr)
 
 ---
 
-**Not:** Bu eklenti tamamen yerel çalışır ve hiçbir kişisel verinizi toplamaz. Gizliliğiniz bizim önceliğimizdir.
+*Bu gizlilik politikası Chrome Web Store gereksinimlerine uygun olarak hazırlanmıştır.*
